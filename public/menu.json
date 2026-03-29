@@ -1,0 +1,38 @@
+{
+    "menu": [
+        {
+            "name": "Men",
+            "items": [
+                {
+                    "name": "T-Shirts",
+                    "slug": "men-tshirts"
+                },
+                {
+                    "name": "Shirts",
+                    "slug": "men-shirts"
+                },
+                {
+                    "name": "Jeans",
+                    "slug": "men-jeans"
+                }
+            ]
+        },
+        {
+            "name": "Women",
+            "items": [
+                {
+                    "name": "Dresses",
+                    "slug": "women-dresses"
+                },
+                {
+                    "name": "Tops",
+                    "slug": "women-tops"
+                },
+                {
+                    "name": "Jeans",
+                    "slug": "women-jeans"
+                }
+            ]
+        }
+    ]
+}
