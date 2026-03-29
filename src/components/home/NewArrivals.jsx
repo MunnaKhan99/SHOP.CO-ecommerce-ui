@@ -25,7 +25,7 @@ const NewArrivals = () => {
                 <h1 className='uppercase font-integral font-bold text-3xl md:text-5xl'>New Arrival</h1>
             </div>
             <div>
-                <Marquee pauseOnHover speed={50} gradient={false}>
+                <Marquee pauseOnHover speed={50} direction='right' gradient={false}>
                     {newArrivalsProducts.map((data) => (
                         <div
                             key={data._id}
@@ -70,6 +70,9 @@ const NewArrivals = () => {
                         </div>
                     ))}
                 </Marquee>
+            </div>
+            <div className='flex items-center justify-center pt-6 md:pt-9' >
+                <p className='text-center py-4 px-13 rounded-full border text-lg border-neutral-300'>View All</p>
             </div>
 
         </section>

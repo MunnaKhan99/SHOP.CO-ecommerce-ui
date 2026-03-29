@@ -67,6 +67,9 @@ const TopSelling = () => {
                     ))}
                 </Marquee>
             </div>
+            <div className='flex items-center justify-center pt-6 md:pt-9' >
+                <p className='text-center py-4 px-13 rounded-full border text-lg border-neutral-300'>View All</p>
+            </div>
 
         </section>
     );
