@@ -1,4 +1,5 @@
 
+import BrowseDress from "@/components/home/BrowseDress";
 import Hero from "@/components/home/Hero";
 import MarqueeCompany from "@/components/home/MarqueeCompany";
 import NewArrivals from "@/components/home/NewArrivals";
@@ -12,6 +13,7 @@ export default function Home() {
       <MarqueeCompany />
       <NewArrivals />
       <TopSelling />
+      <BrowseDress />
     </div>
   );
 }
