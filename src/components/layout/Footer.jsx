@@ -11,7 +11,7 @@ import visa from '../../../public/payments/visa.png'
 
 const Footer = () => {
     return (
-        <footer className="relative bg-[#F0F0F0] pt-40">
+        <footer className="relative bg-[#F0F0F0] pt-40 mt-40">
 
             {/* floating content */}
             <div className="absolute -top-16 inset-x-0">
